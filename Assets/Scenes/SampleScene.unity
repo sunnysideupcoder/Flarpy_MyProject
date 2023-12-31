@@ -510,7 +510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 7850235134522164486, guid: 174ebc9428f807746a69d14c2f63219a, type: 3}
-  heightOffset: 5
+  heightOffset: 15
 --- !u!4 &595664254
 Transform:
   m_ObjectHideFlags: 0

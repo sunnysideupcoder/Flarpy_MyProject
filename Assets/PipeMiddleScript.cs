@@ -8,13 +8,13 @@ public class PipeMiddleScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Pipe middle script");
+        
         GameObject logicObject = GameObject.FindGameObjectWithTag("Logic");
         if (logicObject != null)
         {
             logic = logicObject.GetComponent<LogicScript>(); // adds reference to game object in runtime
 
-            Debug.Log("Pipe found");
+            
         }
         else
         {
